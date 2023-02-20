@@ -12,13 +12,13 @@ var mainDishMealInput = document.querySelector("Main Dish");
 var dessertMealInput = document.querySelector("Dessert");
 var entireMealMealInput = document.querySelector("Entire Meal");
 
-var letsCookBtn = document.querySelector("lets-cook")
-console.log("lets-cook")
+var letsCookBtn = document.querySelector("button2")
+
 
 letsCookBtn.addEventListener("click", letsCook);
 function letsCook() {
 var meal = letsCook.value
-    heading.innerText = meal
+    letsCook.innerText = meal
     if (document.getElementById("Side").checked == true) {
         meal = side;
     }
