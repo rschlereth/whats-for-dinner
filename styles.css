@@ -43,6 +43,7 @@ h1 {
 button1 {
     background-color: white;
     font-family: 'Roboto';
+    font-size: 15px;
     padding: 10px;
     color: black;
     border: none;
